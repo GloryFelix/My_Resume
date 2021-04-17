@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body section */
+
+body {
+    margin: 5px 240px;
+    padding: 10px auto;
+    border: 2px solid rgb(209, 206, 206);
+    max-width: 800px;
+    background-color: rgb(250, 246, 246);
+}
+h2 {
+    text-transform: uppercase;
+    margin-bottom: -0.5em;
+}
+
+/* Header section */
+
+header {
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 1px;
+    
+}
+header p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: green;
+}
+
+header h3 { 
+    margin-top: 1px;
+    margin-bottom: 15px;
+    color: green;
+}
+
+.introduction {
+    justify-content: center;
+    max-width: 700px;
+    word-spacing: 2px;
+    margin: 2px 30px;
+    font: 1em sans-serif;
+}
+
+/* Personal Information SEction */
+
+.p_statement p {
+    color: black;
+    margin-top: 15px;
+    
+}
+.p_information li {
+    list-style: none;
+    margin-left: 0;
+    text-align: left;
+    display: block;
+    
+}
+
+strong {
+    color: green;
+
+}
+/* work Experience */
+.roles {
+    margin-top: 30px;
+}
+.roles1 p {
+    margin-bottom: 3px;
+    
+}
+.roles2 p {
+    margin-bottom: 1px;
+}
+.roles3 p {
+    margin-bottom: 1px;
+
+}
+.lists {
+    margin-top: -0.9em;
+    list-style: disc;
+}
+
+/* Education section */
+.education {
+    margin-top: 30px;
+}
+
+.grade {
+    margin-top: -0.9em;
+}
+/* certificates section */
+.course {
+    margin-top: 30px;
+}
+.course1 p {
+    margin-top: -0.9em;
+}
+.introduction h2 {
+    margin-bottom: -0.5em; 
+}
+.course0 {
+    margin-top: -2em;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 2px 20px;
+        padding: auto;
+    }
+    
+    h1 {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    header h3 {
+        font-size: small;
+        margin: opx 10px;
+    }
+    header p {
+        font-size: smaller;
+    }
+    h2 {
+        font-size: 15px;
+        font-weight: 50%;
+        margin-top: -0.5em;
+    }
+    .p_information li {
+        margin-left: -0.7em;
+        font-size: 12px;
+     }
+     .p_statement p {
+         font-size: 12px;
+        
+     }
+     .p_statement h2 {
+         margin-top: 1px;
+         margin-bottom: -0.8em;
+     }
+     .p_information ul {
+         margin-top: 6px;
+         margin-left: -1.5em;
+     }
+     .roles h2 {
+         margin-top: -0.5em;
+         margin-bottom: -1em;
+     }
+     .roles1 p {  
+           margin-top: 16px;  
+     } 
+     .roles p { 
+         font-size: 12px;
+     }
+     strong {
+         font-size: 12px;
+     }
+     .lists {
+         font-size: 12px;
+         margin-left: -0.7em;
+         margin-top: -1.2em;
+     }
+     .roles {
+         margin-top: 2px;
+     }
+     em {
+         font-size: 12px;
+     }
+     .roles2 p {
+         margin-bottom: -0.5em;
+     }
+     .roles3 p {
+         margin-bottom: -0.5em;
+     }
+     .it {
+         font-size: 12px;
+     }
+     .grade p {
+         font-size: 12px;
+     }
+     .education {
+         margin-top: -0.5em;
+     }
+     .course1 {
+         font-size: 12px;
+     }
+     .course {
+         margin-bottom: -1em;
+     }
+     .school {
+         margin-top: -1.2em;
+     }
+     .educ {
+         margin-top: 1em;
+     }
+    
+        
+    
+    
+}
